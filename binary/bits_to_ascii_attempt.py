@@ -15,14 +15,14 @@ def byte_to_integer(byteString):
       bits.append(1)
     else:
       bits.append(0)
-  bits = [0,1,0,0,1,1,1,0]
+  # bits = [0,1,0,0,1,1,1,0]
   output_integer = 0
   for i in range(8):
     output_integer += bits[i] * powers_of_2[i]
   return output_integer
 
 # turn integer into ASCII character
-def integer_to_character(integer_to_character):
+def integer_to_character(integerValue):
   return chr(integerValue)
   
 # put all of the individual characters together into a message string
