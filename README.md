@@ -1,6 +1,12 @@
 # Unit 2: Managing State
 
+[![GitHub Pages](https://github.com/ssis-aa/managing-state/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/ssis-aa/managing-state/actions/workflows/jekyll-gh-pages.yml)
+[![GitHub release](https://img.shields.io/github/release/ssis-aa/managing-state.svg)](https://GitHub.com/ssis-aa/managing-state/releases/)
+[![MIT license](https://img.shields.io/github/license/ssis-aa/managing-state)](https://ssis-aa.mit-license.org/)
+
 ## 1 Binary Secret Code - Introduction to Abstraction
+
+<a href="https://docs.google.com/document/d/1kezu8lGU67GcGHCYDIvUUrRqeUwTgyaD42zFfC4XZ_0/edit?usp=sharing"><img src="assets/binary3.png" align="right" width="20%"></a>
 
 ### 1-1 Binary Secret Code - Introduction to Abstraction
 
@@ -15,7 +21,8 @@ In this video, Mr. Weinberg introduces the idea of abstraction and teaches you t
 [Link to starter code](https://www.google.com/url?q=https%3A%2F%2Freplit.com%2F%40evanweinberg%2FTranslatingBinary%23main.py&sa=D&sntz=1&usg=AOvVaw3w90p6AB7BNC23sKSMMrLL) in Replit
 
 
-## 2 Three Boards, Three Flavors 
+## 2 Three Boards, Three Flavors
+
 ### 2-1 Abstraction vs. Problem Decomposition
 
 Discussion forum on Schoology
@@ -34,9 +41,14 @@ Make a copy of this Google Document to fill out with your group members as you l
 
 - [Case Study template](https://docs.google.com/document/d/1nADy817iVK_Uais-4eWhLqNB3-nc6toHfbmavBr7VHU/edit)
 
+<img src="assets/rp2040.jpg" width="24%"><img src="assets/microbit.gif" width="24%"><img src="assets/rp2040W.jpg" width="24%"><img src="assets/circuitplayground.jpg" width="24%">
+
 Some microcomputers we used to build and program a state machine. Here for "Three Boards, Three Flavors".
 
 ## 3 Introduction to State Machine Programming - Escape to Summer Case Study
+
+<img src="assets/microbit.png" align="right" width="30%">
+
 ### 3-1 Introduction to State Machine Programming
 
 Based on what you did last time analyzing the code of a microcontroller board and accelerometer, this video introduces how the concept of a state machine makes this code more modular and easier to debug. The idea is to refactor the code that deals with inputs, outputs, and the logic into separate functions. This abstraction makes it easier to build more complex programs than you might otherwise be able to program.
